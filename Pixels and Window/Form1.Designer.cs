@@ -28,12 +28,34 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.lblPixelslabel = new System.Windows.Forms.Label();
+            this.SuspendLayout();
+            // 
+            // lblPixelslabel
+            // 
+            this.lblPixelslabel.AutoSize = true;
+            this.lblPixelslabel.Location = new System.Drawing.Point(13, 13);
+            this.lblPixelslabel.Name = "lblPixelslabel";
+            this.lblPixelslabel.Size = new System.Drawing.Size(104, 13);
+            this.lblPixelslabel.TabIndex = 0;
+            this.lblPixelslabel.Text = "Pixels in Windows = ";
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.lblPixelslabel);
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Label lblPixelslabel;
     }
 }
 
